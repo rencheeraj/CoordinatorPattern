@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Coordinator_Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Coordinator_Pattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
         <!--Create View Controller-->
         <scene sceneID="RIj-mW-NKB">
             <objects>
-                <viewController storyboardIdentifier="CreateViewController" id="0tT-Bm-qOi" customClass="CreateViewController" customModule="Coordinator_Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0tT-Bm-qOi" customClass="CreateViewController" customModule="Coordinator_Pattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jGK-iz-2a2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,7 @@
         <!--Buy View Controller-->
         <scene sceneID="ZZ9-k3-GeM">
             <objects>
-                <viewController storyboardIdentifier="BuyViewController" id="YFz-cG-eDr" customClass="BuyViewController" customModule="Coordinator_Pattern" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BuyViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YFz-cG-eDr" customClass="BuyViewController" customModule="Coordinator_Pattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7H6-gz-IUW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
